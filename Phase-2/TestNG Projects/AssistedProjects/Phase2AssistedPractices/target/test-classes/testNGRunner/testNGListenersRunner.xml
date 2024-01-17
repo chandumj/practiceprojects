@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGRunner1" verbose="1">
+	<listeners>
+		<listener class-name="listenersPractice.ITestListenerClass"></listener>	
+	</listeners>
+	
+ <test name="TestCycle-1">
+   <classes >
+      <class name="listenersPractice.TestClass"/>
+      
+   </classes>
+ </test>
+  </suite>

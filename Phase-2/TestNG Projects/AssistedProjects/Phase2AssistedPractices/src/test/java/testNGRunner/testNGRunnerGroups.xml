@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGRunner2" verbose="1">
+<test name="Regression1">
+  <groups>
+    <define name="functest">
+      <include name="Sanity"/>
+      <include name="Sprint1.functional"/>
+    </define>
+
+    <define name="all">
+      <include name="functest"/>
+      <include name="functional"/>
+    </define>
+
+    <run>
+      <include name="all"/>
+    </run>
+  </groups>
+
+  <classes>
+    <class name="demos.GroupsDemo"/>
+  </classes>
+</test>
+ </suite>

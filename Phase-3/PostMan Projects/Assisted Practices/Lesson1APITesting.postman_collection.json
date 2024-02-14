@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "27fbdbc4-7045-4556-99ac-9bf05b8e5e8c",
+		"name": "Lesson1APITesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/data?value=2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"data"
+					],
+					"query": [
+						{
+							"key": "value",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OpenWeatherGetDemo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseurl}}?appid={{apiid}}&lat=42.9832406&lon=-81.243372",
+					"host": [
+						"{{baseurl}}"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "{{apiid}}"
+						},
+						{
+							"key": "lat",
+							"value": "42.9832406"
+						},
+						{
+							"key": "lon",
+							"value": "-81.243372"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

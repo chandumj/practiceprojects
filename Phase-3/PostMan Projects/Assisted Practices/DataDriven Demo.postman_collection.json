@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "debf7877-62cc-405f-9503-b17a35a2f5a7",
+		"name": "DataDriven Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "openweather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrl}}?q={{City}}&appid={{apiid}}",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{City}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{apiid}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

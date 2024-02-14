@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "13f095c7-a85f-4686-9b83-238509afdf22",
+		"name": "Export Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "OpenWeatherGetDemo Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrl}}?appid={{apiid}}&lat=42.9832406&lon=-81.243372",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "{{apiid}}"
+						},
+						{
+							"key": "lat",
+							"value": "42.9832406"
+						},
+						{
+							"key": "lon",
+							"value": "-81.243372"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

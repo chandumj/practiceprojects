@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "82477ca7-844f-4f1d-917d-ec60b3362e2f",
+		"name": "newman demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "authorization demo Copy",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "PMAK-65c9a3e21a39c10001f505c1-da03c2ea33b2a744b1c24f540823c4a2fd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.postman.com/workspaces",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"workspaces"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "head demo Copy",
+			"request": {
+				"method": "HEAD",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "PMAK-65c9a3e21a39c10001f505c1-da03c2ea33b2a744b1c24f540823c4a2fd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.postman.com/workspaces",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"workspaces"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "options demo Copy",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "PMAK-65c9a3e21a39c10001f505c1-da03c2ea33b2a744b1c24f540823c4a2fd",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.postman.com/workspaces",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"workspaces"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "PMapikey",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

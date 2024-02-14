@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "1222feb7-d522-411a-8fd6-9a924a24afa8",
+		"name": "Variables demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27184939"
+	},
+	"item": [
+		{
+			"name": "varibles",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.environment.set(\"apiid\", \"325a4505b92e53ce30c1bbf5ab203ee5\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?appid={{apiid}}&lat=42.9832406&lon=-81.243372",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "appid",
+							"value": "{{apiid}}"
+						},
+						{
+							"key": "lat",
+							"value": "42.9832406"
+						},
+						{
+							"key": "lon",
+							"value": "-81.243372"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

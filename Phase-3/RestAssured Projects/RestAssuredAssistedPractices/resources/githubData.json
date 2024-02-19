@@ -1,0 +1,9 @@
+{
+    "name": "Myrepo-16feb-restassureddemo",
+    "description": "This is your repository from restAssured",
+    "homepage": "https://github.com",
+    "private": false,
+    "has_issues": true,
+    "has_projects": true,
+    "has_wiki": true
+  }
